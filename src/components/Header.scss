@@ -1,0 +1,33 @@
+@import '../css/global_variables';
+
+.header{
+    display:flex;
+    background-color:$SecondaryColor;
+    height:20px;
+    padding-left:10px;
+    padding-right:10px;
+    div{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+    }
+    div.title{
+        flex:1;
+
+        h3{
+            font-family:$ColorfulFont;
+            color:$DarkText;
+            font-size:10px;
+            position:relative;
+            top:50%;
+            transform:translateY(-50%);
+        }
+    }
+    button{
+        height:18px;
+        font-size:10px;
+        padding:2px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+}

@@ -1,0 +1,14 @@
+@import '../css/global_variables';
+
+.container{
+
+}
+.registerButton{
+    margin-left:10px;
+}
+.jumbotron{
+    background-color:$SecondaryColor;
+}
+button{
+    background-color:$AccentColor !important;
+}

@@ -1,0 +1,16 @@
+.detail-wrapper{
+    display:flex;
+    .keys{
+        padding-right:10px;
+        div{
+            height:30px;
+        }
+    }
+    .inputs{
+        div{
+            height:30px;
+            border-radius:5px;
+            overflow:hidden;
+        }
+    }
+}

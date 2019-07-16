@@ -1,0 +1,12 @@
+@import '../css/global_variables';
+
+.layout{
+    display:flex;
+    flex-direction:column;
+    height:100%;
+    background-color:$MainBGColor;
+}
+.layout .body{
+    flex:1;
+    overflow:auto;
+}

@@ -1,0 +1,15 @@
+.columns{
+    height:100%;
+    display:flex;
+
+    .data-wrapper{
+        flex:1;
+    }
+    .workitem-wrapper{
+        flex:1;
+    }
+    .user-data-wrapper{
+        font-size:12px;
+        text-align:center;
+    }
+}
